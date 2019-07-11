@@ -1,0 +1,40 @@
+{
+  "name": "travauxlibdevis",
+  "version": "1.0.0",
+  "description": "test for travauxlib",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "jest": "^24.8.0",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.87.1",
+    "sinon": "^7.3.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "nodemon": "^1.19.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "jest": "jest --env=node"
+  },
+  "jest": {
+    "automock": false
+  },
+  "repository": {
+    "type": "git",
+    "url": "travauxlib_devis"
+  },
+  "author": "OZ",
+  "license": "ISC"
+}
